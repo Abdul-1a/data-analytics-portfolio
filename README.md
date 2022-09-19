@@ -4,7 +4,7 @@
 <h3 align="center">A passionate Data Analyst from India</h3>
 
 
-Aspiring data analyst with a strong math and statistics background and extensive experience analyzing data through rigorous course work. Over two years of academic experience using data analysis software such as R and Python as well as experience wrangling data in Microsoft Excel. A self-starter who can dig into the technical details but also has no problem explaining things to non-technical stakeholders.
+Aspiring data analyst with a strong math and statistics background and extensive experience analyzing data through rigorous course work. Over two years of academic experience using data analysis software such  Python as well as experience wrangling data in Microsoft Excel. A self-starter who can dig into the technical details but also has no problem explaining things to non-technical stakeholders.
 
 <h3 align="left">Connect with me:</h3>
 
