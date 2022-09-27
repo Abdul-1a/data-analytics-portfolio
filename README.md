@@ -1,22 +1,42 @@
-![Green Professional Gamer LinkedIn Banner1](https://user-images.githubusercontent.com/87469857/191098182-e656dd88-84f2-4fbd-9f68-73a7d00605c0.png)
-
-<h1 align="center">Hi 👋, I'm Abdul Rayan</h1>
-<h3 align="center">A passionate Data Analyst from India</h3>
+<h1 align="center">Data Analyst Portfolio Project - Sales Management</h1>
 
 
-Aspiring data analyst with a strong math and statistics background and extensive experience analyzing data through rigorous course work. Over two years of academic experience using data analysis software such  Python as well as experience wrangling data in Microsoft Excel. A self-starter who can dig into the technical details but also has no problem explaining things to non-technical stakeholders.
+![portfolio](https://user-images.githubusercontent.com/87469857/192596619-e4b5fb8f-3bc7-4b61-8e60-e424867370bc.png)
+<h3 align="Left">Business Request & User Stories</h3>
+The business request for this data analyst project was an executive sales report for sales managers. Based on the request that was made from the business we following user stories were defined to fulfill delivery and ensure that acceptance criteria’s were maintained throughout the project.
 
-<h3 align="left">Connect with me:</h3>
+![Business](https://user-images.githubusercontent.com/87469857/192600101-747379fe-78b0-4510-88c8-799c4d460851.png)
 
-<p align="left">
-<a href="https://www.linkedin.com/in/abdul-rayan-5a03411a6/" target="blank"><img align="center" src="https://raw.githubusercontent.com/rahuldkjain/github-profile-readme-generator/master/src/images/icons/Social/linked-in-alt.svg" alt="abdul rayan" height="30" width="40" /></a>
+<h3 align="left">Data Cleansing & Transformation(SQL)</h3>
+To create the necessary data model for doing analysis and fulfilling the business needs defined in the user stories the following tables were extracted using SQL.
+One data source (sales budgets) were provided in Excel format and were connected in the data model in a later step of the process.
+Below are the SQL statements for cleansing and transforming necessary data.
 
-</p>
-<hr />
+<h6 align="left">DIM_Calendar:</h6>
 
+![Dim_cal](https://user-images.githubusercontent.com/87469857/192603279-0c526c58-90b3-4f02-a42d-40de0cd23557.png)
 
-<h3 align="left">Languages and Tools:</h3>
-<p align="left"> <a href="https://www.python.org/"> <img src=https://th.bing.com/th/id/OIP.LxoJCJCYSckgxvAcKHJvbAHaIG?w=160&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" alt="python" width="40" height="40"/> </a> <a href="https://matplotlib.org/" target="_blank" rel="noreferrer"> <img src="https://th.bing.com/th/id/OIP.qiHO7gbnHz5I32bc1tK3WQHaBe?w=334&h=69&c=7&r=0&o=5&dpr=1.25&pid=1.7" alt="matplotlib" width="80" height="40"/> </a> <a href="https://seaborn.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://th.bing.com/th/id/OIP.uIsmr8ut68vYUpDcA6FZ7AHaEK?w=299&h=180&c=7&r=0&o=5&dpr=1.25&pid=1.7" alt="seaborn" width="140" height="40"/> </a> <a href="https://pandas.pydata.org/" target="_blank" rel="noreferrer"> <img src="https://th.bing.com/th/id/OIP.b3P4rdrVHMIHbhQXnwRVewHaCd?w=339&h=116&c=7&r=0&o=5&dpr=1.25&pid=1.7" alt="pandas" width="140" height="40"/></a>
-</p>
+<h6 align="left">DIM_Customers:</h6>
+
+![Dim_cus](https://user-images.githubusercontent.com/87469857/192602947-f2cdb5c4-1adb-4c52-a0d8-1514baa8e3f0.png)
+
+<h6 align="left">DIM_Products:</h6>
+
+![prod](https://user-images.githubusercontent.com/87469857/192604379-8dc1b76b-50c1-471a-aca7-9255e7ed894b.png)
+
+<h6 align="left">FACT_InternetSales:</h6>
+
+![Internet sale](https://user-images.githubusercontent.com/87469857/192604426-0c3df063-1173-400c-b13c-96c6ecfa20ac.png)
+
+<h6 align="left">Data Model</h6>
+Below is a screenshot of the data model after cleansed and prepared tables were read into Power BI.
+This data model also shows how FACT_Budget hsa been connected to FACT_InternetSales and other necessary DIM tables.
+
+![port3](https://user-images.githubusercontent.com/87469857/192604886-baacf005-7485-4028-b15d-ce2e2fa923ef.png)
+
+<h6 align="left">Sales Management Dashboard</h6>
+The finished sales management dashboard with one page with works as a dashboard and overview, with two other pages focused on combining tables for necessary details and visualizations to show sales over time, per customers and per products.
+
+![por1](https://user-images.githubusercontent.com/87469857/192605274-322373d2-48d8-4822-8858-0f9c72103d58.jpg)
 
 
